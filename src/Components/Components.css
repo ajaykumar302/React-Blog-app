@@ -1,0 +1,231 @@
+.header{
+    text-align: center;
+   display: flex;
+   flex-direction: row;
+  justify-content: center;
+  margin: 30px;
+}
+.header h4{
+    writing-mode:  vertical-lr;
+    transform: rotate(180deg);
+}
+.header h1{
+    padding-left: 0px;
+    margin-left: -20px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+/* ----Navbar-------- */
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    height: 40px;
+    margin-top: -30px; 
+    width: 50%; 
+    /* background-color: aqua; */
+    padding-bottom: 60px;
+    border-bottom: 2px solid rgb(188, 186, 186);
+   
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+   text-align: center;
+   padding-bottom: 15px;
+}
+.item{
+
+padding: 25px;
+}
+.link{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.link:hover{
+    color: brown;
+}
+/* ---------------------Components -------------------------*/
+.main{
+    /* border: 5px solid slateblue; */
+    margin: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.articals{
+ width: 70%;
+ /* border: 2px solid blue; */
+
+}
+.top-list{
+ width: 30%;
+ /* border: 2px solid black; */
+
+}
+.card{
+    display: flex; 
+    flex-direction: row; 
+    border-bottom: 2px solid red;
+    margin: 10px;
+    width: fit-content;
+}
+.card:hover{
+    color: black;
+}
+img{
+    height: 250px;
+    width: 250px;
+    /* border: 2px solid green; */
+}
+.context{
+    /* width: 40%; */
+    /* border: 2px solid black; */
+    padding: 3px;
+}
+.top-list img{
+   height: 180px;
+   width: 180px;
+   
+}
+.ads{
+    border: 2px solid black;
+    height: 25%;
+    margin: 10px;
+    padding-top: 220px;
+}
+.heading{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    padding-left: 5px;
+    font-weight: bolder;
+    border-bottom: 5px solid green;
+    width: 80px;
+    color: red;
+}
+.start{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: black;
+}
+.date{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+/* -------------------------card---------------------- */
+.info{
+    /* border: 2px solid rgb(254, 4, 4); */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 2px;
+}
+.whole-card{
+    /* border: 2px solid black; */
+    height: fit-content;
+    width: 50%;
+    margin: 20px;
+}
+.id-card{
+ width: 550px;
+ height: 350px;
+ margin: 25px;
+}
+.id-para{
+    /* border: 2px solid black; */
+    text-align: justify;
+}
+.footer{
+    border: 2px solid aqua;
+    background-color: aqua;
+}
+/*------------------------------------ home ----------------*/
+.cards{
+    margin: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    
+}
+.card1{
+    margin: 3px;
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 60%;
+}
+.card2{
+    margin: 3px;
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 40%;
+}
+.pic{
+    /* border: 2px solid red; */
+    height: 250px;
+}
+.img1{
+    height: 495px;
+    width: 750px;
+    margin: 3px;
+    border-radius: 10px;
+}
+.img2{
+    height: 240px;
+    width: 500px;
+    margin: 3px;
+    border-radius: 10px;
+}
+/* --------------------the latest-------------------------- */
+.latest{
+    /* border: 2px solid green; */
+    height: 530px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 25px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.art{
+    /* border: 2px solid black; */
+    height: 480px;
+    width: 350px;
+    margin: 15px;
+   
+}
+.art-img{
+    /* border: 2px solid rgb(240, 10, 10); */
+    width: 320px;
+    height: 240px;
+    margin: 15px;
+}
+.art-para{
+    width: 320px;
+    height: 240px;
+    margin: 15px;
+    margin-top: 0px;
+}
+.art-id-para{
+    /* border: 2px solid rgb(240, 10, 10); */
+    height: 140px;
+    width: 320px;
+    text-align: justify;
+    overflow: hidden;
+}
+.art-head{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
